@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "451 Discord Token Login",
+  "version": "1.0",
+  "description": "Connexion à Discord via token ou extracteur de token",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["https://discord.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
